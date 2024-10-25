@@ -194,3 +194,15 @@ img {
 	opacity: 1;
 	bottom: 6px;
 }
+
+@media (max-width: 400px) {
+	#nav-container {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 400px) {
+	#nav-container {
+		display: flex;
+	}
+}
